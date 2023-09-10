@@ -11,6 +11,7 @@ public class DataTablesStepDefinition {
 
     @Then("kullanici sayfataki tabloda new butonuna tiklar")
     public void kullaniciSayfatakiTablodaNewButonunaTiklar() {
+
         dataTablePage.newButton.click();
     }
 
@@ -22,6 +23,7 @@ public class DataTablesStepDefinition {
 
     @And("kullanici create buttonuna basar")
     public void kullaniciCreateButtonunaBasar() {
+
         dataTablePage.createButton.click();
     }
 

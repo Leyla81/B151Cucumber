@@ -55,6 +55,7 @@ public class TechproStepDefinition {
 
     @And("basligin Free icerdigini test eder")
     public void basliginFreeIcerdiginiTestEder() {
+
         Assert.assertTrue(Driver.getDriver().getTitle().contains("Free"));
     }
 
